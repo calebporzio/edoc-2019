@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.hljs {
+    line-height: 1.5;
+}
+
+pre > code {
+    text-align: left;
+}
