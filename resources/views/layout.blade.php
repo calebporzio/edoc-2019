@@ -32,13 +32,13 @@
     </style>
 
     <link href="/css/tailwind.css" rel="stylesheet">
+    <script src="/js/jquery.js"></script>
     <script src="/js/axios.js"></script>
 
     <!-- Turbolinks -->
     <!-- <script src="/js/turbolinks.js"></script> -->
 
     <!-- Intercooler -->
-    <!-- <script src="/js/jquery.js"></script> -->
     <!-- <script src="/js/intercooler.js"></script> -->
 
     <script>
