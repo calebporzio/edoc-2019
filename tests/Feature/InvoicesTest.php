@@ -13,6 +13,11 @@ class InvoicesTest extends TestCase
     /** @test */
     public function can_see_invoices()
     {
-        //
+        DB::table('invoices')->insert([
+            'title' => 'Foo',
+            'amount' => 100,
+        ]);
+
+        $this->get('/invoice')->assertSee('Foo');
     }
 }
