@@ -18,6 +18,6 @@ class InvoicesTest extends TestCase
             'amount' => 100,
         ]);
 
-        $this->get('/invoice')->assertSee('Foo');
+        $this->get('/invoice-partial')->assertSee('Foo');
     }
 }

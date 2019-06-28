@@ -36,10 +36,10 @@
     <script src="/js/axios.js"></script>
 
     <!-- Intercooler -->
-    <!-- <script src="/js/intercooler.js"></script> -->
+    <script src="/js/intercooler.js"></script>
 
     <!-- Turbolinks -->
-    <!-- <script src="/js/turbolinks.js"></script> -->
+    <script src="/js/turbolinks.js"></script>
 
     <script>
         (function() {
